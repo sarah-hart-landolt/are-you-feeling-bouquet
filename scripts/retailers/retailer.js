@@ -5,7 +5,7 @@ export const Retailer = (retalierObject, distributorObject, nurseriesArray, Flow
                 <h2>${retalierObject.name}</h2>
             </header>
             <section class="retailer__location">
-                <div>Color: ${retalierObject.address}</div>
+                <div>Address: ${retalierObject.address}</div>
             </section>
             <section class="distributor__info">
                 <div>Distributor: ${distributorObject.name}</div>
