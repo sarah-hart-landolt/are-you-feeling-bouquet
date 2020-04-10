@@ -1,0 +1,225 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "name": "Magnolia",
+      "color": "white"
+    },
+
+    {
+      "id": 2,
+      "name": "Hydrangea",
+      "color": "violet"
+    },
+
+    {
+      "id": 3,
+      "name": "Tuliip",
+      "color": "red"
+    },
+
+    {
+      "id": 4,
+      "name": "Iris",
+      "color": "lilac"
+    }
+  ],
+
+  "retailers": [
+    {
+      "id": 1,
+      "name": "The Unlikely Florist",
+      "city": "Venice",
+      "state": "CA",
+      "address": "715 Hampton Dr, Venice, CA 90291",
+      "distributerId": 1
+    },
+
+    {
+      "id": 2,
+      "name": "Amelia's Flowers",
+      "city": "Nashville",
+      "state": "TN",
+      "address": "230 Franklin Rd, Franklin, TN 37064",
+      "distributerId": 1
+    },
+
+    {
+      "id": 3,
+      "name": "Bleuet Coquelicot",
+      "city": "Paris",
+      "state": "France",
+      "address": "10 Rue de la Grange aux Belles, 75010 Paris, France",
+      "distributerId": 3
+    },
+
+    {
+      "id": 4,
+      "name": "Studio Choo West",
+      "city": "San Francisco",
+      "state": "CA",
+      "address": "701 11th Ave. at Cabrillo San Francisco, CA 94118",
+      "distributerId": 1
+    },
+
+    {
+      "id": 5,
+      "name": "Moyses Stevens",
+      "city": "London",
+      "state": "England",
+      "address": "Selfridges, Foodhall, Oxford St, London W1A 1AB",
+      "distributerId": 2
+    }
+
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "name": "US Flower Distributor",
+      "city": "Venice",
+      "state": "CA",
+      "address": "133 Flower Court"
+    },
+
+    {
+      "id": 2,
+      "name": "England Distributor",
+      "city": "London",
+      "state": "England",
+      "address": "722 Lily Way"
+    },
+
+    {
+      "id": 3,
+      "name": "France Distributor",
+      "city": "Paris",
+      "state": "France",
+      "address": "22 rue Fleur"
+    }
+  ],
+  "nursuries": [
+    {
+      "id": 1,
+      "name": "Hillermann Nursery & Florist"
+    },
+
+    {
+      "id": 2,
+      "name": "English Gardens"
+    },
+
+    {
+      "id": 3,
+      "name": "Molbak's Garden + Home"
+    },
+    {
+      "id": 4,
+      "name": "Esposito Garden Center"
+    },
+
+    {
+      "id": 5,
+      "name": "Old Country Gardens"
+    }
+  ],
+
+  "nurseryFlowers": [
+    {
+      "id": 1,
+      "nurseryId" : 1,
+      "flowerId" : 1
+    },
+
+    {
+      "id": 2,
+      "nurseryId" : 1,
+      "flowerId" : 2
+    },
+
+    {
+      "id": 3,
+      "nurseryId" : 2,
+      "flowerId" : 2
+    },
+
+    {
+      "id": 4,
+      "nurseryId" : 2,
+      "flowerId" : 3
+    },
+
+    {
+      "id": 5,
+      "nurseryId" : 3,
+      "flowerId" : 1
+    },
+
+    {
+      "id": 6,
+      "nurseryId" : 3,
+      "flowerId" : 4
+    },
+
+    {
+      "id": 7,
+      "nurseryId" : 4,
+      "flowerId" : 3
+    },
+
+    {
+      "id": 8,
+      "nurseryId" : 4,
+      "flowerId" : 2
+    },
+
+    {
+      "id": 9,
+      "nurseryId" : 5,
+      "flowerId" : 4
+    },
+
+    {
+      "id": 10,
+      "nurseryId" : 5,
+      "flowerId" : 2
+    }
+  ],
+
+  "distributorNurseries": [
+    {
+      "id": 1,
+      "nurseryId" : 1,
+      "distributorId" : 1
+    },
+
+    {
+      "id": 2,
+      "nurseryId" : 2,
+      "distributorId" : 1
+    },
+
+    {
+      "id": 3,
+      "nurseryId" : 2,
+      "distributorId" : 2
+    },
+
+    {
+      "id": 4,
+      "nurseryId" : 3,
+      "distributorId" : 2
+    },
+
+    {
+      "id": 5,
+      "nurseryId" : 5,
+      "distributorId" : 3
+    },
+
+    {
+      "id": 6,
+      "nurseryId" : 4,
+      "distributorId" : 3
+    }
+  ]
+}
